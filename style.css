@@ -1,0 +1,437 @@
+body{
+    margin: 0%;
+    background-color: rgb(160, 24, 24);
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -200px;
+}
+.nav-right .material-icons{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 5px;
+    color: white;
+    box-shadow: rgb(250, 247, 247) 0px 5px 15px;
+
+}
+.nav-right h4{
+    color: white;
+}
+.nav-right button{
+    margin-right: 90px;
+    padding: 15px 30px 15px 30px;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 255, 34);
+}
+.nav-left img{
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+h1{
+    font-size: 60px;
+    color: white;
+}
+.delicious{
+    margin-left: 50px;
+}
+.delicious .welcome{
+    color: white;
+}
+.delicious .mater{
+    background-color: rgba(251, 10, 10, 0.841);
+    margin-right: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mater .material-icons{
+    background-color: orangered;
+    padding: 10px;
+    margin-right: 5px;
+    color: white;
+}
+.mater{
+    color: white;
+}
+.bright{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 10px;
+}
+.second{
+   text-align: center;
+}
+.dodo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(5, 64%, 43%, 0.598);
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: aliceblue;
+}
+.nav-right h4:hover{
+    cursor: pointer;
+    color:black;
+    background-color: yellow;
+    padding: 5px;
+}
+.select h4:hover{
+    cursor: pointer;
+    color:black;
+    background-color: yellow;
+    padding: 5px;
+}
+.dodo h3{
+    margin-left: 30px;
+}
+.dodo:hover{
+    cursor: pointer;
+    background-color: rgba(17, 228, 247, 0.635);
+    color: black;
+}
+.austr{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.austr .material-icons {
+    padding-left: 10px;
+    color: orangered;
+}
+.austr p{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.local{
+    background-color: rgba(251, 10, 10, 0.291);
+    margin: 0%;
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(255, 162, 0);
+}
+.third{
+    text-align: center;
+}
+.and{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pasta{
+    background-image: url(soso.png);
+    background-size: cover;
+    width: 70vh;
+    height: 40vh;
+    border: 10px solid pink;
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.colored{
+    background-image: url(/practic3/soll.png);
+    background-size: cover;
+    width: 70vh;
+    height: 40vh;
+    border: 10px solid pink;
+    margin-left: 10px;
+    color: white;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.colored:hover{
+    cursor: pointer;
+    color: blue;
+}
+.pasta:hover{
+    cursor: pointer;
+    color: blue;
+}
+.four{
+    text-align: center;
+}
+.choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.food{
+    background-color: rgba(255, 0, 0, 0.333);
+    border: 3px solid rgb(246, 100, 9);
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.food:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.556);
+}
+.food img{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.food h4, .food p{
+    text-align: start;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.food h4{
+    color: wheat;
+}
+.food .loo{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: orange;
+    padding: 10px;
+    font-size: 30px;
+    margin-left: 75%;
+    border-top-left-radius: 20px;
+    color: rgb(221, 84, 35);
+    margin-top: -10px;
+}
+.food p i{
+    color: yellow;
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+}
+.point i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.six{
+    background-color: white;
+    border-radius:10px ;
+    margin: 50px 400px 0px 400px;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+}
+.six h2{
+    font-size: 30px;
+}
+.six p{
+    margin-top: -10px;
+    font-weight: bold;
+    color: brown;
+}
+.six p i{
+    font-size: 7px;
+}
+.six p span{
+    color: coral;
+}
+.seven{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.six:hover{
+    cursor: pointer;
+    background-color: rgb(192, 255, 197);
+}
+.select .material-icons{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 5px;
+    color: white;
+    box-shadow: rgb(250, 247, 247) 0px 5px 15px;
+
+}
+.bright:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.point:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.mater:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.select h4{
+    color: white;
+    font-size: 15px;
+}
+.the{
+    color: white;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order .material-icons{
+    background-color: orange;
+    height: 6vh;
+    padding: 1px 5px 1px 5px;
+}
+.order input{
+    height: 6vh;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+}
+.hight{
+    text-align: center;
+    margin-top: 20px;
+    color: aquamarine;
+}
+@media(max-width:500px){
+    body{
+        margin: 0%;
+        width: 360px;
+        
+    }
+    .nav-right{
+        display: none;
+    }
+    .cece{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .first{
+        margin-left: 50px;
+        margin-right: 0%;
+    }
+    .nav-right button{
+        display: none;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .pasta{
+        height: 20vh;
+    }
+    .food{
+        width: 98%;
+    }
+    .choose{
+        display: flex;
+        flex-direction: column;
+    }
+    .five img{
+        margin-left: 100px;
+    }
+    .five{
+        display: flex;
+        flex-direction: column;
+    }
+    .select{
+        display: none;
+    }
+    .six{
+        display: none;
+    }
+    .dodo{
+        font-size: 10px;
+        margin-left: 0%;
+    }
+    .dodo .material-icons{
+        font-size: 30px;
+        display: flex;  
+        margin: 0%;
+    }
+    .bright{
+        display: none;
+    }
+    .kuteav img{
+        width: 200px;
+        margin: 0%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .and{
+        display: flex;
+        flex-direction: column;
+    }
+    .pasta{
+        display: none;
+    }
+    .colored{
+        font-size: 20px;
+        width: 91%;
+        height: 30vh;
+    }
+    .five{
+        text-align: start;
+        margin-left: 0%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .five img{
+        width: 200px;
+    }
+    .seven img{
+        width: 100px;
+    }
+    .seven{
+        font-size: 20px;
+    }
+    .seven{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+}
